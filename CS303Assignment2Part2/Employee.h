@@ -10,7 +10,7 @@ public:
 	virtual ~Employee();
 	virtual double getWeeklySalary() const = 0;
 	virtual double getHealthCareContribution() const = 0;
-	virtual int getVacationDaysEarned() const = 0;
+	virtual double getVacationEarned() const = 0;
 	string getName() const;
 	int getAge() const;
 
@@ -22,4 +22,4 @@ protected:
 
 };
 
-#endif#pragma once
+#endif

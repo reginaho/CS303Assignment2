@@ -9,8 +9,8 @@ public:
 	virtual ~Professional();
 	virtual double getWeeklySalary() const override;
 	virtual double getHealthCareContribution() const override;
-	virtual int getVacationDaysEarned() const override;
-	// virtual string getName() const override; // FIX
+	virtual double getVacationEarned() const override;
+	
 private:
 	int vacationDaysPerYear_;
 	string name_;

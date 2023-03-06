@@ -15,10 +15,6 @@ double Professional::getHealthCareContribution() const {
 	return baseSalary_ * 0.1; //10% of baseSalary
 }
 
-int Professional::getVacationDaysEarned() const {
-	return vacationDaysPerYear_ / 12; // Divide by 12 months to get monthly vacation days
+double Professional::getVacationEarned() const {
+	return static_cast<double>(vacationDaysPerYear_) / 12; // Divide by 12 months to get monthly vacation days
 }
-
-// string Professional::getName() const {
-//     return name_;
-// }

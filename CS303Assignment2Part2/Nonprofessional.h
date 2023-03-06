@@ -1,4 +1,4 @@
-//NEED TO ADD GETNAME AND getAGE
+
 
 #ifndef NONPROFESSIONAL_H
 #define NONPROFESSIONAL_H
@@ -13,12 +13,12 @@ public:
 
 	double getWeeklySalary() const;
 	double getHealthCareContribution() const;
-	int getVacationDaysEarned() const;
+	double getVacationEarned() const;
 
 private:
 	double hourlyRate_;
-	// mutable double hoursWorked_;
+	
 };
 
 #endif
-#pragma once
+

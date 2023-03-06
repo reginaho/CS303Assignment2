@@ -17,6 +17,8 @@ double Nonprofessional::getHealthCareContribution() const {
     return baseSalary_ * 0.05; //5% of base salary
 }
 
-int Nonprofessional::getVacationDaysEarned() const {
-    return static_cast<int>(hoursWorked_ / 40);
+double Nonprofessional::getVacationEarned() const {
+    return hoursWorked_ / 30;
+    //One vacation hour for every 30
+    //assumed that there is an 8 hour work day
 }
